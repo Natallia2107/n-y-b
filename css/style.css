@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+	/* background-color: #333; */
+	font-size: 0;
+}
+
+.underline {
+	margin: 0 auto 30px;
+	width: 60px;
+	height: 4px;
+	background-color: #e699a6;
+}
+
+.underline-two {
+	margin: 0 auto 30px;
+	width: 900px;
+	height: 2px;
+	background-color: rgb(174, 174, 174);
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+nav {
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+
+.navbar-brand {
+	margin-left: 70px;
+	padding: 14px 16px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+}
+
+.navbar-toggler {
+	margin-right: 70px;
+	padding: 14px 16px;
+	color: #000;
+}
+
+.navbar-brand:hover {
+	color: #e699a6;
+}
+
+.nav-item {
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav-item:hover {
+	color: #e699a6;
+}
+
+header {
+	margin-top: 150px;
+	margin-left: 200px;
+	margin-bottom: 40px;
+	color: #000;
+}
+
+header h1 {
+	font-size: 36px;
+	text-transform: lowercase;
+	height: 200px;
+	width: 700px;
+}
+
+header h1 span {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #e699a6;
+}
+
+header p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	color: silver;
+}
+
+main {
+	position: relative;
+	text-align: center;
+}
+
+main h2 span {
+	font-weight: bold;
+}
+
+main .text {
+	/* position: absolute; */
+	font-size: 18px;
+	padding-bottom: 10px;
+	margin: 10px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.text:hover {
+	/* text-align: center; */
+	margin-top: 5px;
+	padding: 5px;
+	font-weight: bold;
+	background-color: #e699a6;
+	color: #fff;
+	border-radius: 15px;
+}
+
+main .text-more-work {
+	padding: 5px;
+	margin: 40px 10px 10px;
+	background-color: #e699a6;
+	color: #fff;
+	border-radius: 15px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.hero-bg {
+	position: absolute;
+	/* width: 100vw;
+	height: 100vh; */
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.column {
+	margin: 10px 0;
+	float: left;
+	width: 33.33%;
+	padding-top: 30px 10px 10px;
+}
+
+.row::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.foot-h1 {
+	margin-bottom: 30px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h4 {
+	display: inline-block;
+	margin: 10px 10px 50px 10px;
+	color: rgb(174, 174, 174);
+}
+
+footer {
+	padding: 0px;
+	margin: 0;
+	text-align: center;
+	background-color: #fff;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+.the-end {
+	margin: 0;
+	padding: 0;
+}
